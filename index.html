@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <a href="https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-3-Jagadeeshponnam/blob/38f527763ba5a40117b0d3b0b7d75ca50db2c820/bonus.html">Bonus</a>
         <title> New Page About Me  </title>
     </head>
     <body>
@@ -34,7 +35,76 @@
                     <li>The Osmania General Hospital</li>
                 </ul>
             </p>
+            <hr>
+            <p>This table shows the places to visit and stay time in City</p>
+            <style>
+                table,th,td {
+                    border:1px solid black;
+                }
+
+            </style>
+
+<table style="width:50%">
+    <tr>
+        <th>City</th>
+        <th>Location</th>
+        <th>Time</th>
+    </tr>
+    <tr>
+        <td>Hyderabad</td>
+        <td>Golconda</td>
+        <td>1Day</td>
+    </tr>
+    <tr>
+        <td>Bangolore</td>
+        <td>Mysore Palus</td>
+        <td>2Dyas</td>
+    </tr>
+    <tr>
+        <td>Goa</td>
+        <td>Goa Beach</td>
+        <td>4Days</td>
+    </tr>
+    <tr>
+        <td>Delhi</td>
+        <td>The Red Fort</td>
+        <td>2Days</td>
+    </tr>
+</table>
+<blockquote>SVG PATTERNS</blockquote>
+<a href="https://css-tricks.com/snippets/svg/">More database</a>
+<pre>
+    <svg width="100%" height="100%">
+  
+    <!-- Create mask that we'll use to define a slight gradient -->
+    <mask maskUnits="userSpaceOnUse" id="fade">
+      <!-- Here's that slight gradient -->
+           <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="100%">
+        <stop offset="0" style="stop-color: #FFFFFF"></stop>
+        <stop offset="1" style="stop-color: #000000"></stop>
+      </linearGradient>
+      <!-- The canvas for our mask -->
+      <rect fill="url(#gradient)" width="100%" height="100%"></rect>
+    </mask>
+      
+    <!-- Let's define the pattern -->
+    <!-- The width and height should be double the circle radius we plan to use -->
+    <pattern id="pattern-circles" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <!-- Now let's draw the circle -->
+      <!-- We're going to define the `fill` in the CSS for flexible use -->
+      <circle mask="url(#fade)" cx="20" cy="20" r="20"></circle>
+    </pattern>
+    <!-- The canvas with our applied pattern -->
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#pattern-circles)"></rect>
+    
+  </svg>
+</pre>
+
+
+
+
             <a href="https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-3-Jagadeeshponnam/blob/6c64a2f980b0dad3de8bb568dc296eeb54d47e07/AboutMe.html">Click here to go</a>
 
+
             </body>
-</html>
+
